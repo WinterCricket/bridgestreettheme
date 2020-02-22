@@ -4,3 +4,229 @@
 	Version: 1.0
 */
 
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li {
+	list-style: none;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+.title {
+	z-index: 3;
+}
+#header-img {
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	float: left;
+}
+.woods::after {
+	content:'';
+	height: 100vh;
+	width: 100%;
+	background-image: url("https://images.unsplash.com/photo-1416244579084-cceb7ab682ca?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=626cc82ca95b363ea68782ac46594361&auto=format&fit=crop&w=1510&q=80");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+    display: block;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+	transition: all 1000ms;
+}
+.woods:hover::after {
+	filter: blur(0px);
+    -webkit-filter: blur(0px);
+}
+
+.woods:hover #header-image {
+	opacity: 0.3;
+	transition: 1000ms;
+}
+
+.woods:hover .title {
+	color: white;
+	transition: 1000ms;
+	font-size: 1.2rem;
+	margin-top: -40px;
+}
+
+.woods:hover .white{
+	color: white;
+	transition: 1000ms;
+	font-size: 1.2em;
+}
+
+.content {
+	position: absolute;
+	z-index: 1;
+	top: 0%;
+	left: 48%;
+	margin-top: 105px;
+	margin-left: -140px;
+	width: 300px;
+	height: 350px;
+	text-align: center;
+	transition: all 1000ms;
+}
+
+.content #header-image {
+	height: 180px;
+	width: 180px;
+	
+}
+
+.content .title {
+	font-size: 1.2em;
+}
+
+
+#intro {
+	font-size: 1.4em;
+
+}
+
+
+
+#basic-price .container #what-we-do, #basic-price .container #video {
+	max-width: 960px;
+	margin: auto;
+	overflow: hidden;
+	padding: 4rem 1rem;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	padding: 10px;
+	align-items: center;
+	text-align: center;
+}
+
+#pricing .container #bed, #pricing .container #coffee, #pricing .container #train {
+	max-width: 960px;
+	margin: auto;
+	overflow: hidden;
+	padding: 4rem 1rem;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	padding: 10px;
+	align-items: center;
+	text-align: center;
+	border-bottom: solid #000 1px;
+}
+
+
+@media screen and (min-width: 800px){
+
+#basic-price .container {
+	display: flex;
+
+	
+}
+}
+
+ @media screen and (min-width: 800px){
+#pricing .container {
+
+	display: flex;
+	
+}
+#pricing .container #bed, #pricing .container #coffee, #pricing .container #train {
+	border-bottom: none;
+}
+
+}
+/*end of media query*/
+#nav-bar {
+	display: flex;
+
+}
+#sumbit {
+	border-radius: 20%;
+	opacity: 0.05;
+	color: white;
+	background-color: black;
+}
+#email {
+	text-align: center;
+}
+/*navbar*/
+ 
+nav ul {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ 
+#nav-bar {
+    overflow: hidden;
+    background-color: white;
+    opacity: 0.8;
+    color: black;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 3;
+    display: flex;
+    
+}
+
+#nav-bar .nav-link {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    z-index: 4;
+}
+
+li a {
+	color: black;
+	text-decoration: none;
+}
+
+/* Change background on mouse-over */
+#nav-bar .nav-link:hover {
+    background: black;
+    color: white;
+}
+
+li a:hover {
+	background: black;
+    color: white;
+}
+
+input[type=submit]{
+	
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 3px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background: white;
+	color: black;
+}
+.btn {
+	background-color: black;
+    border: none;
+    color: white;
+    padding: 3px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.btn:hover {
+	background: green;
+	
+}
+

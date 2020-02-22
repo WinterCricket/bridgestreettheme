@@ -11,7 +11,7 @@
 	
 		
 		<nav id="nav-bar">
-			<!-- <img src="https://cdn2.iconfinder.com/data/icons/harry-potter-solid-collection/60/04_-_Harry_Potter_-_Solid_-_Patronas_Stag-512.png" alt="stag head icon" id="header-img"> -->
+			<img src="https://cdn2.iconfinder.com/data/icons/harry-potter-solid-collection/60/04_-_Harry_Potter_-_Solid_-_Patronas_Stag-512.png" alt="stag head icon" id="header-img">
 			<ul>
 				
 				
@@ -23,7 +23,7 @@
 
 		</nav>
 		<section id="subscribe" class="content">
-			<!-- <img src="https://cdn2.iconfinder.com/data/icons/harry-potter-solid-collection/60/04_-_Harry_Potter_-_Solid_-_Patronas_Stag-512.png" alt="Country London Icon" id="header-image"> -->
+			<img src="https://cdn2.iconfinder.com/data/icons/harry-potter-solid-collection/60/04_-_Harry_Potter_-_Solid_-_Patronas_Stag-512.png" alt="Country London Icon" id="header-image">
 			
 			<div class="title">
 				<h1 id="title"> Bridge Street Program of Writing</h1>
