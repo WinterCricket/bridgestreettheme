@@ -1,4 +1,6 @@
-<p>footer, footer, footer</p>
+<footer class="center">
+		<p>Bridge Street, Belfast, Maine &copy; 2020</p>
+	</footer>
 
 <?php wp_footer(); ?>
 
