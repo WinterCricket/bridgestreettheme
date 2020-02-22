@@ -7,7 +7,7 @@
 </head>
 <body>
 	
-<header id="header" class="woods">
+<header id="header" class="woods" style="background-image: url(<?php echo get_theme_file_uri("/woods.PNG") ?>);" >
 	
 		
 		<nav id="nav-bar">
