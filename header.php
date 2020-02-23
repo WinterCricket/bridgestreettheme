@@ -7,9 +7,9 @@
 </head>
 <body>
 	
-<header id="header" class="woods" style="background-image: url(<?php echo get_theme_file_uri("/woods.PNG") ?>);" >
-	
-		
+<header id="header" class="woods" >
+	<!-- see if putting background in div helps, or I should put on dif file -->
+		<div style="">
 		<nav id="nav-bar">
 			<img src="https://cdn2.iconfinder.com/data/icons/harry-potter-solid-collection/60/04_-_Harry_Potter_-_Solid_-_Patronas_Stag-512.png" alt="stag head icon" id="header-img">
 			<ul>
@@ -39,4 +39,5 @@
 				</div>
 			</form>
 		</section>
+		</div>
 	</header>

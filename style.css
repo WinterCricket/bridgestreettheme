@@ -30,7 +30,7 @@ a {
 	content:'';
 	height: 100vh;
 	width: 100%;
-	/*background-image: url(<?php echo get_theme_file_uri("/woods.PNG")?>);*/
+	background-image: url("/woods.PNG");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
