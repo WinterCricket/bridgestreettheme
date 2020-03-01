@@ -7,37 +7,28 @@
 </head>
 <body>
 	
-<header id="header" class="woods" >
-	<!-- see if putting background in div helps, or I should put on dif file -->
-		<div style="">
-		<nav id="nav-bar">
-			<img src="https://cdn2.iconfinder.com/data/icons/harry-potter-solid-collection/60/04_-_Harry_Potter_-_Solid_-_Patronas_Stag-512.png" alt="stag head icon" id="header-img">
-			<ul>
-				
-				
-				<li> <a class="nav-link" href="#pricing">Pricing</a></li>
-				<li> <a class="nav-link" href="#basic-price">Basic Price</a></li>
-				<li> <a class="nav-link" href="#subscribe">Subscribe</a></li>
-			</ul>
 
-
-		</nav>
-		<section id="subscribe" class="content">
-			<img src="https://cdn2.iconfinder.com/data/icons/harry-potter-solid-collection/60/04_-_Harry_Potter_-_Solid_-_Patronas_Stag-512.png" alt="Country London Icon" id="header-image">
-			
-			<div class="title">
-				<h1 id="title"> Bridge Street Program of Writing</h1>
-				<p id="intro">Toward a Mastery of Literary Fiction</p>
-			</div>
-			<form action="" id="form" method="get">
-				<div >
-					<label class="white">For Our Newsletter</label>
-				</div>
-				<div >
-					<input type="email" id="email" placeholder="Enter your email" name="email"><br>
-					<input type="submit" id="submit" value="Subscribe" name="submit">
-				</div>
-			</form>
-		</section>
-		</div>
-	</header>
+  
+  <header class="site-header">
+    <div class="container">
+      <h1 class="school-logo-text float-left"><a href="#"><strong>Bridge</strong> Street Writing</a></h1>
+      <span class="js-search-trigger site-header__search-trigger"><i class="fa fa-search" aria-hidden="true"></i></span>
+      <i class="site-header__menu-trigger fa fa-bars" aria-hidden="true"></i>
+      <div class="site-header__menu group">
+        <nav class="main-navigation">
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Programs</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Campuses</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </nav>
+        <div class="site-header__util">
+          <a href="#" class="btn btn--small btn--orange float-left push-right">Login</a>
+          <a href="#" class="btn btn--small  btn--dark-orange float-left">Sign Up</a>
+          <span class="search-trigger js-search-trigger"><i class="fa fa-search" aria-hidden="true"></i></span>
+        </div>
+      </div>
+    </div>
+  </header>
