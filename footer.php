@@ -12,8 +12,8 @@
         <div class="site-footer__col-two-three-group">
           <div class="site-footer__col-two">
             <h3 class="headline headline--small">Explore</h3>
-            <nav>
-              <ul class="nav-list min-list">
+            <nav class="nav-list">
+              <ul>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Programs</a></li>
                 <li><a href="#">Events</a></li>
@@ -24,8 +24,8 @@
 
           <div class="site-footer__col-three">
             <h3 class="headline headline--small">Learn</h3>
-            <nav>
-              <ul class="nav-list min-list">
+            <nav class="nav-list">
+              <ul>
                 <li><a href="#">Legal</a></li>
                 <li><a href="#">Privacy</a></li>
                 <li><a href="#">Careers</a></li>
